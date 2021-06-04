@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+
+}
+
+.nav a {
+    display: inline-block;
+    padding: .8em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255, 255, 255, .2)
+}
+
+.main-nav li {
+    padding: 0 5%
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .5)
+}
+
+h2 {
+    color: rgb(217, 217, 252);
+}
+
+h2:hover  {
+    color: rgb(57, 252, 90);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("img/Dark1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.main-body {
+    background-color:black;
+}
+
